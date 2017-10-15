@@ -3,6 +3,7 @@
 }
 body {
     background-image: url(http://i.imgur.com/5O1JXmm.jpg);
+    background-position: center; 
     height: 1500px;
     margin: 0;
     border-width: 0;
@@ -96,47 +97,49 @@ h3 {
 
 }
 .about {
-    float: left;
     border-width: 7px 7px 7px 0px;
     top:30px;
     width:600px;
 }
 .hobbies{
-    float: right;
     border-width: 7px 0px 7px 7px;
-    top:60px;
+    top:50px;
     width:650px;
 }
 .movie {
-
-    float: left;
     border-width: 7px 7px 7px 0px;
-    top:90px;
+    top:70px;
     width:850px;
 }
 .music{
-    float: right;
     border-width: 7px 0px 7px 7px;
-    top:120px;
+    top:110px;
     width:800px;
 }
 
 
 .about,.movie{
+    float: left;
+    position: relative;
     border-style:solid;
     border-color:bisque;
     padding:15px;
-    margin: 3px 0px;
-    position: relative;
+    margin: 3px 800px 3px 0;
+    clear:both;
 
 }
 
 .hobbies,.music{
+    float:right;
+    position: relative;
     border-style:solid;
     border-color:lightblue;
     padding:15px;
-    margin: 3px 0px;
- position: relative;
+    margin: 3px 0 3px 800px;
+}
+
+.about,.movie,.hobbies,.music{
+    
 }
 
 .content {
@@ -150,7 +153,7 @@ footer {
     margin-top: -100px; 
     height: 180px;
     clear:both;
-   
+
 
 }
 .marq{
@@ -162,5 +165,5 @@ footer {
 .ig, .fb{
     float: right;
     margin: 80px 10px 15px 15px;
-    
+
 }
