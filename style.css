@@ -145,16 +145,19 @@ h3 {
 
 }
 footer {
- position: relative;
- margin-top: -100px; 
- height: 180px;
- clear:both;
+    position: relative;
+    margin-top: -100px; 
+    height: 180px;
+    clear:both;
+
 }
 .marq{
-   top:150px;
-font-family: 'Arvo',cursive;
+    background-color:rgba(0,0,0,0.2);
+    top:130px;
+    font-family: 'Arvo',cursive;
+    text-align: center;
 }
 .ig, .fb{
     float: right;
-    margin: 100px 10px 15px 15px;
+    margin: 80px 10px 15px 15px;
 }
