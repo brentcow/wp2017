@@ -9,12 +9,22 @@ body {
     border-width: 0;
 }
 a {
-    color:coral;
+    color:darkblue;
 }
+
+.sentence{
+    text-align: center;
+    font-size: 20px;
+    color:wheat;
+    font-family: 'Arvo';
+    border: 2px solid none;
+    margin: 68px auto 50px auto;
+}
+
 h1 {
     text-align: center;
     font-size: 40px;
-    color: aliceblue;
+    color:aliceblue;
     font-family: 'Gloria Hallelujah', cursive;
 }
 h2 {
@@ -27,18 +37,19 @@ h3 {
     text-align:center;
     font-size: 15px;
     color: black;
+     font-family:'Lato';
 
 }
 
 
 .navigation, h4 {
     text-transform: capitalize;
+     font-family:'Lato';
 
 }
 
 .navigation {
-    background-color:rgba(0,0,0,1);
-    opacity:0.3;
+    background-color:rgba(0,0,0,0.3);
     max-width: 1000px;
     min-width: 920px;
     border: 2px solid none;
@@ -53,6 +64,7 @@ h3 {
     color: white;
     padding: 2px 5px;
     margin: 0 50px;
+    font-family:'Lato';
 }
 
 .navigation li:hover {
@@ -64,7 +76,6 @@ h3 {
 }
 
 .self-picture img {
-
     border-radius: 100%;
 }
 
@@ -91,53 +102,57 @@ h3 {
     margin: 0px 10px;
 }
 
-
 .header{
     min-width: 1200px;
 
 }
 .about {
-    border-width: 7px 7px 7px 0px;
-    top:30px;
+     top:30px;
     width:600px;
 }
 .hobbies{
-    border-width: 7px 0px 7px 7px;
     top:50px;
     width:650px;
 }
 .movie {
-    border-width: 7px 7px 7px 0px;
     top:70px;
     width:850px;
 }
 .music{
-    border-width: 7px 0px 7px 7px;
     top:110px;
     width:800px;
 }
 
 
 .about,.movie{
+   
+     border-width: 3px 3px 3px 0px;
+     background-color:rgba(255,255,255,0.3);
     float: left;
     position: relative;
     border-style:solid;
     border-color:bisque;
-    padding:15px;
-    margin: 3px 800px 3px 0;
+    padding:15px 15px 15px 180px;
+    margin: 3px 800px 3px -100px;
     clear:both;
 
 }
 
 .hobbies,.music{
+  
+     border-width: 3px 0px 3px 3px;
+     background-color:rgba(255,255,255,0.3);
     float:right;
     position: relative;
     border-style:solid;
     border-color:lightblue;
-    padding:15px;
-    margin: 3px 0 3px 800px;
+     padding:15px 180px 15px 15px;
+    margin: 3px -100px 3px 800px;
 }
 
+.about:hover,.movie:hover,.hobbies:hover,.music:hover{
+    background-color:rgba(255,255,255,0.6);
+}
 
 .content {
     min-width: 550px;
@@ -150,17 +165,20 @@ footer {
     margin-top: -100px; 
     height: 20px;
     clear:both;
-
-
 }
 .marq{
-    background-color:rgba(0,0,0,0.3);
+    background-color:coral;
+    opacity: 0.6;
     top:130px;
     font-family: 'Arvo',cursive;
     text-align: center;
-}
-.ig, .fb{
-    float: right;
-    margin: 80px 10px 15px 15px;
+     position: fixed;
+    
 
 }
+.git,.ig, .fb{
+    float: right;
+    margin: 120px 10px 10px 10px;
+   
+}
+
