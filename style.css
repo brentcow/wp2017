@@ -127,6 +127,7 @@ h3 {
     border-color:bisque;
     padding:15px;
     margin: 3px 0px;
+    position: relative;
 
 }
 
@@ -135,7 +136,7 @@ h3 {
     border-color:lightblue;
     padding:15px;
     margin: 3px 0px;
-
+ position: relative;
 }
 
 .content {
@@ -149,6 +150,7 @@ footer {
     margin-top: -100px; 
     height: 180px;
     clear:both;
+   
 
 }
 .marq{
@@ -160,4 +162,5 @@ footer {
 .ig, .fb{
     float: right;
     margin: 80px 10px 15px 15px;
+    
 }
