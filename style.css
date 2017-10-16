@@ -171,11 +171,9 @@ footer {
     background-color:coral;
     opacity: 0.6;
     top:130px;
-    font-family: 'Arvo',cursive;
-    text-align: center;
-     position: fixed;
+    position: fixed;
     font-size: 15px;
-    
+     font-family: 'Arvo',cursive;
 
 }
 .git,.ig, .fb{
