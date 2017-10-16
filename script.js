@@ -132,3 +132,29 @@ $(document).ready(function(){
     });
 });
 
+
+// typing1
+var count=0;
+var content1="Cell:(09)12160422 <br> Mail:brent.cow@gmail.com";
+function type_write1(){
+  if(count<=content1.length){
+
+    count++;  
+    document.getElementById('reply_comment').innerHTML=content1.substring(0,count);
+
+    setTimeout("type_write1()",100);
+  }
+}
+
+// typing2
+var count=0;
+var content2="Web designing is fun!";
+function type_write2(){
+  if(count<=content2.length){
+
+    count++;  
+    document.getElementById('p1').innerHTML=content2.substring(0,count);
+
+    setTimeout("type_write2()",300);
+  }
+}
