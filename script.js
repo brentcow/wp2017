@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(".navigation").mouseenter(function(){
       $('.about') .fadeOut();
@@ -101,6 +102,17 @@ $(document).ready(function(){
         var mus = $(".music");  
         mus.animate({right: '-50px'}, "slow");
         mus.animate({fontSize: '3em'}, "slow");
+  
+    });
+});
+
+//mouseenter
+
+$(document).ready(function(){
+    $(".ig").mouseenter(function(){
+        var ig = $(".ig");  
+        ig.animate({up: '50px'}, "slow");
+        ig.animate({fontSize: '3em'}, "slow");
   
     });
 });
