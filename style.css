@@ -18,7 +18,8 @@ a {
     color:wheat;
     font-family: 'Arvo';
     border: 2px solid none;
-    margin: 68px auto 50px auto;
+    margin: 30px auto 30px auto;
+    top:-30px;
 }
 
 h1 {
