@@ -109,10 +109,26 @@ $(document).ready(function(){
 //mouseenter
 
 $(document).ready(function(){
-    $(".ig").mouseenter(function(){
-        var ig = $(".ig");  
-        ig.animate({up: '50px'}, "slow");
-        ig.animate({fontSize: '3em'}, "slow");
-  
+    $(".fb").mouseenter(function(){
+        var fb = $(".fb");  
+        fb.animate({left: '5px'}, "slow");
+        fb.animate({left: '-5px'}, "slow");
     });
 });
+
+$(document).ready(function(){
+    $(".ig").mouseenter(function(){
+        var ig = $(".ig");  
+        ig.animate({left: '5px'}, "slow");
+        ig.animate({left: '-5px'}, "slow");
+    });
+});
+
+$(document).ready(function(){
+    $(".git").mouseenter(function(){
+        var git = $(".git");  
+        git.animate({left: '5px'}, "slow");
+        git.animate({left: '-5px'}, "slow");
+    });
+});
+
