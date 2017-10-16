@@ -12,7 +12,7 @@
         </title>
     </head>
 
-    <body >    
+    <body onload="type_write1();type_write2()">    
         <script type="text/javascript" src="jquery-1.6.2.min.js"></script>
         <script type="text/javascript" src="jquery.bracket.min.js"></script>
         <link rel="stylesheet" type="text/css" href="jquery.bracket.min.css" />
@@ -25,7 +25,7 @@
             <img src="handsome.jpg" width="200" height="200">
         </div>
 
-        <div id="p1" class="sentence">Web designing is fun!</div>
+        <div id="p1" class="sentence"></div>
 
         <nav class="navigation">
             <ul>
@@ -36,6 +36,7 @@
             </ul>
         </nav>
         <hr>
+
         <div class="content">
             <div id="about" class="about">
                 <h2>About Me</h2>
@@ -44,12 +45,12 @@
             </div>
 
 
-<!--           
-            <div id="slider">
-                <img src="travel.jpg" width="50" height="50" />
-                <img src="guitar.jpg" width="50" height="50" />
-                <img src="drama.jpg" width="50" height="50" />
-            </div> 
+            <!--           
+<div id="slider">
+<img src="travel.jpg" width="50" height="50" />
+<img src="guitar.jpg" width="50" height="50" />
+<img src="drama.jpg" width="50" height="50" />
+</div> 
 -->
 
 
@@ -82,19 +83,23 @@
 
 
             <footer>
+
                 <div class=marq>
-                    <marquee  direction="right" width="400" height="48" scrollamount="2" behavior="alternate"  align="middle"  SCROLLDELAY="100" >Cell:&ensp;&ensp;&ensp;(09)12160422  <br>Mail:&ensp;&ensp; brent.cow@gmail.com</marquee>
+
+                    <marquee id="reply_comment" direction="right" width="400" height="48" scrollamount="2" behavior="alternate"  align="middle"  SCROLLDELAY="100" ></marquee>
+
                 </div>
+
                 <div class="git">
                     <a href="https://github.com/brentcow"target="_blank">
                         <img src="git.png" width="50" height="50"></a>
                 </div>
-                
+
                 <div class="ig">
                     <a href="https://www.instagram.com/brent.cow/"target="_blank">
                         <img src="ig.png" width="55" height="55"></a>
                 </div>
-                
+
                 <div class="fb">
                     <a href="https://www.facebook.com/brent.cow"target="_blank">
                         <img src="fb.png" width="50" height="50"></a>
@@ -104,12 +109,13 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>
-            $( '.self-picture' ).slideUp( 10 ).delay( 0 ).fadeIn("slow");
+             $( '.header' ).slideUp( 10 ).delay( 250 ).fadeIn("slow");
+            $( '.self-picture' ).slideUp( 10 ).delay( 500 ).fadeIn("slow");
             $( '.about' ).slideUp( 10 ).delay( 1000 ).slideDown("slow");
             $('.hobbies' ).slideUp( 10 ).delay( 2000 ).slideDown("slow");
             $('.movie').slideUp( 10 ).delay( 3000 ).slideDown("slow");
             $('.music' ).slideUp( 10 ).delay( 4000 ).slideDown("slow");
-            $('.marq' ).slideUp( 10 ).delay( 6000 ).slideToggle("slow");
+            $('.marq' ).slideUp( 10 ).slideToggle("slow");
 
         </script>
         <script src="script.js"></script>
