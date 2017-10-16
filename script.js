@@ -15,9 +15,9 @@ $(document).ready(function(){
 $(document).ready(function(){
     $(".self-picture").click(function(){
         var self = $(".self-picture");  
-        self.animate({left: '200px'}, "slow");
+        self.animate({left: '180px'}, "slow");
         $("#p1").slideToggle("slow");
-        self.animate({left: '-10px'}, "slow");
+        self.animate({left: '-9px'}, "slow");
         
     });
 });
