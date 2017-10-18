@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Gloria+Hallelujah" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet" type="text/css">
+
+
+
+
+        <title>
+            Tsung Yen's Homepage
+        </title>
+    </head>
+
+    <body onload="type_write1();type_write2()">    
+        <script type="text/javascript" src="jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="jquery.bracket.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="jquery.bracket.min.css" />
+
+        <div class="header">
+            <h1>Welcome to Tsung Yen's Home</h1>
+        </div>
+
+        <div class="self-picture" style="cursor:pointer;">
+            <img src="handsome.jpg" width="200" height="200">
+        </div>
+
+        <div id="p1" class="sentence"></div>
+
+        <nav class="navigation">
+            <ul>
+                <a href="#about"><li>about me</li></a>
+                <a href="#hobbies"><li>hobbies</li></a>
+                <a href="#movie"><li>favorite movie</li></a>
+                <a href="#music"><li>favorite song</li></a>
+            </ul>
+        </nav>
+        <hr>
+
+        <div class="content">
+            <div id="about" class="about">
+                <h2>About Me</h2>
+                <h3>Hello!My name is Brent.I graduated from TCFSH three years ago,and I'm now a junior student majoring in <a Href="http://www.eecs.ncku.edu.tw/bin/home.php" target="_blank">EE</a>(Electronic Engineering)in<a href="http://web.ncku.edu.tw" target="_blank">
+                    NCKU</a>(National Cheng Kung University).</h3>
+            </div>
+
+
+            <!--           
+<div id="slider">
+<img src="travel.jpg" width="50" height="50" />
+<img src="guitar.jpg" width="50" height="50" />
+<img src="drama.jpg" width="50" height="50" />
+</div> 
+-->
+
+
+            <div id="hobbies" class="hobbies" style="cursor:pointer;">
+                <h2>Hobbies</h2>
+                <h3>I love playing the guitar,playing badminton,taking photos,watching movies, designing report,as well as traveling around the world!</h3>
+            </div>
+
+            <div id="movie" class="movie">
+                <div class="movie-text">
+                    <h2>favorite movie</h2>
+                    <h3>Inception is a 2010 science fiction film written, co-produced, </h3>
+                    <h3>and directed by Christopher Nolan, and co-produced by Emma Thomas.</h3>
+                </div>
+                <div class="movie-picture">
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/-zENqPuozj8" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div id="music" class="music">
+                <div class="music-text">
+                    <h2>favorite music</h2>
+                    <h3>The steady beats and the rhythmic lyrics make me hum constantly.</h3>
+                    <h3>You are likely addicted to this inspring song.</h3>
+                </div>
+                <div class="music-picture">
+                    <iframe width="320" height="180" src="https://www.youtube.com/embed/N0t0HT7Eh1c" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+
+            <footer>
+
+                <div class=marq>
+
+                    <marquee id="reply_comment" direction="right" width="350" height="48" scrollamount="2" behavior="alternate"  align="middle"  SCROLLDELAY="100" ></marquee>
+
+                </div>
+
+                <div class="git">
+                    <a href="https://github.com/brentcow"target="_blank">
+                        <img src="git.png" width="50" height="50"></a>
+                </div>
+
+                <div class="ig">
+                    <a href="https://www.instagram.com/brent.cow/"target="_blank">
+                        <img src="ig.png" width="55" height="55"></a>
+                </div>
+
+                <div class="fb">
+                    <a href="https://www.facebook.com/brent.cow"target="_blank">
+                        <img src="fb.png" width="50" height="50"></a>
+                </div>
+            </footer> 
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+             $( '.header' ).slideUp( 10 ).delay( 250 ).fadeIn("slow");
+            $( '.self-picture' ).slideUp( 10 ).delay( 500 ).fadeIn("slow");
+            $( '.about' ).slideUp( 10 ).delay( 1000 ).slideDown("slow");
+            $('.hobbies' ).slideUp( 10 ).delay( 2000 ).slideDown("slow");
+            $('.movie').slideUp( 10 ).delay( 3000 ).slideDown("slow");
+            $('.music' ).slideUp( 10 ).delay( 4000 ).slideDown("slow");
+            $('.marq' ).slideUp( 10 ).slideToggle("slow");
+
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
